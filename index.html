@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        body {
+    font-family: Helvetica;
+    background: linear-gradient(#010528 ,#131b77);
+    display: block;
+    height: 100%;
+    width: 100%;    
+    padding: 50px;
+    color: white;
+    margin: 0 auto;
+   
+}
+
+a {
+  text-decoration: none;
+  color:white
+}
+
+
+.site-identity h1 {
+  font-size: 1.5em;
+  margin: .6em 0;
+  display: inline-block;
+}
+
+
+.site-navigation ul, 
+.site-navigation li {
+  margin: 0; 
+  padding: 0;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
+.site-header{
+
+border-bottom: 1px solid #ccc;
+  padding: .5em 1em;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.prod{
+  float: left;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.prod:hover{
+  height: 420px;
+  width: 310px;
+  border-radius: 10px;
+}
+.cl{
+  display: flex;
+  gap: 50px;
+}
+.r{
+  width: 300px;
+  float: left;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  
+}
+.cl2{
+  display: flex;
+  gap: 60px;
+  padding-left: 40px;
+}
+.img{
+  display:flex;
+  float: left;
+  margin-bottom: 40px;
+}
+.img3{
+  margin-left: 40px;
+}
+</style>
+<body>
+
+    <header class="site-header">
+        <div class="site-identity">
+        
+          <h1><a href="">Ashutosh Cyber Cafe</a></h1>
+        </div> 
+        <nav class="site-navigation">
+         <div><ul class="nav">
+            <li><a href="about.html" target="_blank">About</a></li> 
+            <li><a href="services">services</a></li> 
+            <li><a href="contact.html" target="_blank">Contact</a></li> 
+          </ul></div> 
+        </nav>
+      </header>
+      <div >
+        <img class="mySlides" src="typing.jpg" height="400px" width="1450px">
+        <img class="mySlides" src="laptop.jpg" height="400px" width="1450px">
+        <img class="mySlides" src="banner4.jpg" height="400px" width="1450px">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      auto();
+      
+      function auto() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(auto, 2000); 
+      }
+      </script><br><br><br><br><br>
+      <marquee behavior="scroll" direction="left" style="color: white; font-size: 30px;">For any query please contact: 8081814542</marquee>
+      <p style="text-align: center;">
+        "Visit our cyber cafe for high-speed internet, printing, scanning. Your digital sanctuary for work and play!"</p><br><br>
+        <p style="text-align: center;">ऑनलाइन फार्म आवेदन केन्द्र (साइवर कैफे) आप घर से काफी दूर है या आपको आने जाने में परेशानी हो रही है या कोई योग्य साइवर कैफे वाला आपके आस पास नहीं है या अगर आप अपनी जिंदगी में बहुत व्यस्त हैं तो आप निश्चित हो जाइए।</p><br><br><br><br>
+        <div class="im">
+          <div class="img"><img src="time.jpg" height="400px" width="600px">
+          <div class="img3"><p style="text-align: center;">समय बचायें और घर पर रहें<br>
+            अब आप घर बैठे अपना महत्वपूर्ण समय बचाकर, भीड़-भाड़ से मुक्त हो कर, किसी भी प्रकार की सरकारी या प्राइवेट जॉब आवेदन की सुविधा के लिए हम से सम्पर्क करें। आप बेफिक्र हो कर 100 प्रतिशत यकीन के साथ हम से संपर्क कर सकते हैं।</p></div>
+        </div><br><br><br><br><br><br></div>
+        <p style="text-align: center; font-size: 40px;">Services We Offer</p>
+       
+      <div class="cl">
+        <div class="prod"><a href="income.html " target="_blank"><img src="certificate.jpg" aria-placeholder="image" height="400px" width="300px"  ></a></div>
+        <div class="prod"><a href="print.html" target="_blank"><img src="print.jpg" height="400px" width="300px"></a></div>
+        <div class="prod"><a href="application.html" target="_blank"><img src="applicat.jpg" height="400px" width="300px"></a></div>
+        <div class="prod"><a href="cd.html" target="_blank"><img src="copy.jpg" height="400px" width="300px"></a></div>
+      </div>
+  <div class="cl2">
+    <div class="r">Inocome/Domicile/Residential</div>
+    <div class="r">Scanning/Printing/Xerox</div>
+    <div class="r">Online Application Filling</div>
+    <div class="r">Cd Burning And Duplication</div>
+  </div><br><br><br><br><br>
+  <table>
+    <tr>
+      <td>Join with us on :</td>
+      <td><a href="https://www.instagram.com/sudheer_soni90/"><img src="insta.png" height="40px" width="30px"></a></td>
+      <td><a href="sonisudheer0@gmai.com"><img src="download.png" height="40px" width="30px"></a></td>
+      <td><a href="https://www.instagram.com/sudheer_soni90/"><img src="telegram.png" height="40px" width="30px"></a></td>
+    </tr>
+  </table>
+
+</body>
+</html>
