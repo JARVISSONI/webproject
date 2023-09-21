@@ -13,7 +13,8 @@
     width: 100%;
     color: black;
     margin: 0;
-padding-bottom: 10%;    
+padding-bottom: 2%;    
+
 }
 
 
@@ -90,7 +91,11 @@ a {
 
 .img {
     display: flex;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: 40%;
+    height: 30%;
+    width: 50%;
+    /* border-radius: 10px; */
 }
 
 .img3 {
@@ -114,6 +119,7 @@ a {
 .btc {
     text-align: center;
     margin-bottom: 10vh;
+    
 }
 
 .bt {
@@ -121,15 +127,28 @@ a {
     width: 60vh;
     border-radius: 1.5vh;
     font-size: 2.5vh;
+    background: linear-gradient(rgb(107, 168, 176), rgb(27, 77, 80));
 }
 
 .bt:hover {
     transform: scale(1.06);
 }
-.e{
+/* .e{
     display: flex;
+} */
+.foot{
+    display: flex;
+    color: black;
+    margin-bottom: 10;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 5%;
+    background-color:white;
+    border-radius: 5%;
 }
-
+/* .what{
+    border-radius: 1%;
+} */
 @media screen and (max-width: 768px) {
     .site-navigation li {
         margin: 0.6em 0.5em;
@@ -160,19 +179,19 @@ a {
         width: 30%;
     }
 }
-.what{
+/* .what{
     text-align: center;
     border-radius: 1%;
     height: 40%;
     width: 40%;
-}
+} */
 
 </style>
 <body>
 <div class="info">
     <div class="e">
     <div><h1 style="font-family: Playfair Display, serif; font-size: 70px;">Ashutosh Cyber Cafe</h1></div>
- <div class="b">
+ <!-- <div class="b">
   <div class="bar"><img src="email1.jpg" height="30px" width="30px"></div>
     <div><p>sonisudheer0@gmail.com</p></div>
   </div><br>
@@ -185,7 +204,7 @@ a {
   <div class="bar"><img src="time.png" height="30px" width="30px"></div>
     <div><p>10:00 AM To 7:00 PM</p></div>
     
-  </div></div><br>
+  </div></div><br> -->
   <!-- <div class="info2">
     <p>sonisudheer0@gmail.com</p>
     <p>8081814542</p>
@@ -233,13 +252,13 @@ a {
       <marquee behavior="scroll" direction="left" style="color:black; font-size: 30px;">For any query please contact: 8081814542</marquee>
       <p style="text-align: center;">
         "Visit our cyber cafe for high-speed internet, printing, scanning. Your digital sanctuary for work and play!"</p><br><br>
-        <p style="text-align: center;">ऑनलाइन फार्म आवेदन केन्द्र (साइवर कैफे) आप घर से काफी दूर है या आपको आने जाने में परेशानी हो रही है या कोई योग्य साइवर कैफे वाला आपके आस पास नहीं है या अगर आप अपनी जिंदगी में बहुत व्यस्त हैं तो आप निश्चित हो जाइए।</p><br><br><br><br>
+        <p style="text-align: center;">ऑनलाइन फार्म आवेदन केन्द्र (साइवर कैफे) आप घर से काफी दूर है या आपको आने जाने में परेशानी हो रही है या कोई योग्य साइवर कैफे वाला आपके आस पास नहीं है या अगर आप अपनी जिंदगी में बहुत व्यस्त हैं तो आप निश्चित हो जाइए।</p><br>
         <div class="im">
-          <div class="img"><img src="time.jpg" height="400px" width="600px">
+          <div class="img"><img src="clock.jpg" height="60%" width="40%" style="border-radius:50%;"></div>
           <div class="img3"><p style="text-align: center;">समय बचायें और घर पर रहें<br>
             अब आप घर बैठे अपना महत्वपूर्ण समय बचाकर, भीड़-भाड़ से मुक्त हो कर, किसी भी प्रकार की सरकारी या प्राइवेट जॉब आवेदन की सुविधा के लिए हम से सम्पर्क करें। आप बेफिक्र हो कर 100 प्रतिशत यकीन के साथ हम से संपर्क कर सकते हैं।</p></div>
         </div><br><br><br><br><br><br></div>
-        <p style="text-align: center; font-size: 40px;">Services We Offer</p>
+        <!-- <p style="text-align: center; font-size: 40px;">Services We Offer</p> -->
         <!-- <div style="text-align: center;"> 
           <select class="sel"  onchange="location = this.value;"><br>
             <option value="select your choice">....SELECT YOUR CHOICE....</option><br>
@@ -256,6 +275,20 @@ a {
           </select>
         </div> -->
         <div class="btc"><button class="bt" type="button" name="button"><a href="service.html">GO TO OUR SERVICES</a></button></div>
-        <div class="what"><a href="https://wa.me/8081814542/?text=Hii I want to use online services"><img src="what.png" height="10%" width="10%">Whatsapp us</a></div>
+        
+        <footer class="foot">
+       
+        <div class="b">
+            <div class="bar"><img src="email1.jpg" height="30px" width="30px"></div>
+              <div><p>sonisudheer0@gmail.com</p></div>
+            </div><br>
+            <div class="b">
+                <div class="what"><a href="https://wa.me/8081814542/?text=Hii I want to use online services"><img src="what.png" height="15%" width="10%">Whatsapp us</a></div></div>
+            <div class="b">
+            <div class="bar"><img src="time.png" height="30px" width="30px"></div>
+              <div><p>10:00 AM To 7:00 PM</p></div>
+              
+            </div>
+        </footer>
         </body>
 </html>
